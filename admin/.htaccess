@@ -1,0 +1,6 @@
+AuthUserFile /srv/www/employees/portraitsofresistance.com/.htpasswd
+AuthGroupFile /dev/null
+AuthName EnterPassword
+AuthType Basic
+
+require user valid-user
